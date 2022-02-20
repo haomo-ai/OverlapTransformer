@@ -1,0 +1,8 @@
+file_root:
+  data_root_folder: "/home/mjy/datasets/haomo_data/1208_1/01/img_all/depth/"
+  data_root_folder_test: "/home/mjy/datasets/haomo_data/1208_1/02/img_all/depth/"
+  triplets_for_training: "../more_chosen_normalized_data_1208_1_01.npy"
+  test_weights: "/home/mjy/dev/OverlapTransformer/weights/pretrained_overlap_transformer_haomo.pth.tar"
+  gt_file: "/home/mjy/dev/OverlapTransformer/test/gt_0.3overlap_1.2tau_bet_two_traj.npy"
+  pose_file_database: "/home/mjy/datasets/haomo_data/stamps_calibrated_poses_1208_1_01.npy"
+  pose_file_query: "/home/mjy/datasets/haomo_data/stamps_calibrated_poses_1208_1_02.npy"
