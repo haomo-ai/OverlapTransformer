@@ -45,9 +45,15 @@ We currently only provide the training and test tutorials for KITTI sequences in
 
 For a quick test of the training and testing procedures, you could use our [pretrained model]().  
 
-#### Data structure
+### Data structure
+
+We will recommend you follow our data structure.
+
+#### OT structure
+
 
 ```bash
+├── more_chosen_normalized_data_1208_1_01.npy
 ├── config
 │   ├── config_haomo.yml
 │   └── config.yml
@@ -56,7 +62,6 @@ For a quick test of the training and testing procedures, you could use our [pret
 │   ├── netvlad.py
 │   ├── overlap_transformer_haomo.py
 │   └── overlap_transformer.py
-├── more_chosen_normalized_data_1208_1_01.npy
 ├── test
 │   ├── gt_0.3overlap_1.2tau_bet_two_traj.npy
 │   ├── test_haomo_topn_prepare.py
@@ -94,7 +99,14 @@ For a quick test of the training and testing procedures, you could use our [pret
     ├── pretrained_overlap_transformer_haomo.pth.tar
     └── pretrained_overlap_transformer.pth.tar
 ```
-  
+#### Dataset structure
+In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), the parameters of _data_root_ are described as follows:
+
+
+
+
+
+
   
   
   
