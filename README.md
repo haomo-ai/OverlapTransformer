@@ -35,6 +35,16 @@ To use a GPU, first you need to install the nvidia driver and CUDA.
   sudo apt-get install -y python3-pip python3-tk
   sudo -H pip3 install --upgrade pip
   ```
+- Torch dependences  
+  Following this [link](https://pytorch.org/get-started/locally/), you can download Torch dependences by pip:
+  ```bash
+  pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+  ```
+  or by conda:
+  ```bash
+  conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+  ```  
+  
 
 - Python dependencies (may also work with different versions than mentioned in the requirements file)
 
