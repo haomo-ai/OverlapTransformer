@@ -129,7 +129,7 @@ You should download or generate the following files and put them in the right po
 - You can find `gt_valid_folder` for sequence 02 [here](https://drive.google.com/file/d/13_1j20Uq3ppjVEkYaYcKjiJ2Zm7tudyH/view?usp=sharing).   
 - Since all the KITTI sequences need a large memory, we recommend you generate range images such as `00/depth_map/000000.png` by the preprocessing from [Overlap_Localization](https://github.com/PRBonn/overlap_localization/blob/master/src/prepare_training/gen_depth_and_normal_map.py) or its [C++ version](https://github.com/PRBonn/overlap_localization/tree/master/src/prepare_training/c_utils), and we will not provide these images. Please note that in OverlapTransformer, the `.png` images are used instead of `.npy` files saved in [Overlap_Localization](https://github.com/PRBonn/overlap_localization/blob/master/src/prepare_training/gen_depth_and_normal_map.py).
 - More directly, you can generate `.png` range images by [the script from OverlapNet](https://github.com/haomo-ai/OverlapTransformer/blob/master/tools/utils/gen_depth_data.py) updated by us.
-- `overlaps` of each sequence are provided by the authors of OverlapNet [here]().
+- `overlaps` of each sequence are provided by the authors of OverlapNet [here](https://drive.google.com/file/d/1i333NUC1DnJglXasqkGYCmo9p45Fx28-/view?usp=sharing).
 
 
 ### Training
