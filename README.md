@@ -27,6 +27,7 @@ OverlapTransformer is also fast enough when using the neural network on CPU.
 To use a GPU, first you need to install the nvidia driver and CUDA.
 
 - CUDA Installation guide: [link](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+  We use CUDA 11.3 in our work.
 
 - System dependencies:
 
