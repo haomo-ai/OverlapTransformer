@@ -178,4 +178,6 @@ We will provide a C++ implemention of OverlapTransformer with libtorch for faste
 
 
 ## License
-Coming soon ...
+Copyright 2020, Junyi Ma, Xieyuanli Chen, Jun Zhang, HAOMO.AI Technology Co., Ltd., China.
+
+This project is free software made available under the GPL v3.0 License. For details see the LICENSE file.
