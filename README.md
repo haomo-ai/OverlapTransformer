@@ -101,9 +101,28 @@ We will recommend you follow our data structure.
 ```
 #### Dataset structure
 In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), the parameters of _data_root_ are described as follows:
-
-
-
+```
+  data_root_folder (KITTI sequences root) follows:
+  ├── 00
+  │   ├── depth_map
+  │     ├── 000000.png
+  │     ├── 000001.png
+  │     ├── 000002.png
+  │     ├── ...
+  │   ├── normal_map
+  │   ├── overlaps
+  │   └── poses_withloop.txt
+  ├── 01
+  ├── 02
+  ├── ...
+  └── 10
+  
+  
+  # KITTI sequence 02 velodyne
+  valid_scan_folder: "/home/mjy/datasets/kitti/00/velodyne"
+  # KITTI sequence 02 computed overlaps
+  gt_valid_folder: "/home/mjy/dev/OverlapNet++/kittiHandler/computed_overlap/"
+```
 
 
 
