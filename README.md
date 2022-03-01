@@ -120,12 +120,12 @@ In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/ma
   ├── ...
   └── 10
   
-  valid_scan_folder (KITTI sequence 02 velodyne) follows:
+  valid_scan_folder (KITTI sequence 02 velodyne) contains:
   ├── 000000.bin
   ├── 000001.bin
   ...
 
-  gt_valid_folder (KITTI sequence 02 computed overlaps) follows:
+  gt_valid_folder (KITTI sequence 02 computed overlaps) contains:
   ├── 02
   │   ├── overlap_0.npy
   │   ├── overlap_10.npy
