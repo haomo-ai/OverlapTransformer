@@ -131,7 +131,7 @@ In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/ma
   │   ├── overlap_10.npy
   ...
 ```
-You can find `gt_valid_folder` for sequence 02 [here]().  
+You can find `gt_valid_folder` for sequence 02 [here](https://drive.google.com/file/d/13_1j20Uq3ppjVEkYaYcKjiJ2Zm7tudyH/view?usp=sharing).  
 
 
 ### Training
@@ -153,7 +153,7 @@ Once a model has been trained , the performance of the network can be evaluated.
 
 - `test_seqs`: sequence number for evaluation which is "00" in our work.
 - `test_weights`: path of the pretrained model.
-- `gt_file`: path of the ground truth file provided by the author of OverlapNet, which can be downloaded [here]().
+- `gt_file`: path of the ground truth file provided by the author of OverlapNet, which can be downloaded [here](https://drive.google.com/file/d/1upAwJBF-_UIB7R8evW0PuJBM3RnrTbzl/view?usp=sharing).
 
 
 Therefore you can start the testing scripts as follows:
@@ -168,7 +168,7 @@ After you run `test_kitti00_PR_prepare.py`, a file named `predicted_des_L2_dis.n
 For a quick test of the training and testing procedures, you could use our [pretrained model](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
 
 ### visualization
-We provide a visualization demo for Haomo dataset To be provided (Fig. 2). Please download the [descriptors]() firstly and then:
+We provide a visualization demo for Haomo dataset To be provided (Fig. 2). Please download the [descriptors](https://drive.google.com/file/d/13btLQiUokuSHYx229WxtcHGw49-oxmX2/view?usp=sharing) firstly and then:
 ```
 cd visualize
 python viz_haomo.py
