@@ -109,6 +109,7 @@ In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/ma
   │     ├── 000002.png
   │     ├── ...
   │   └── overlaps
+  │     ├── train_set.npz
   ├── 01
   ├── 02
   ├── ...
