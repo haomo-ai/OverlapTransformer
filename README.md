@@ -141,6 +141,8 @@ You can start the training with
 cd train
 python ./training_overlap_transformer_kitti.py
 ```
+You can resume from our pretrained model [here](https://github.com/haomo-ai/OverlapTransformer/blob/86cd4a53e1be7029de445ec8b2f3d0fbdb8d38c4/train/training_overlap_transformer_kitti.py#L53) for training.
+
 
 ### Testing
 
