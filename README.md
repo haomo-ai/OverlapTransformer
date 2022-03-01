@@ -69,10 +69,9 @@ We will recommend you follow our data structure.
 │   ├── test_kitti00_PR_prepare.py
 │   ├── test_kitti00_PR.py
 │   ├── test_results_haomo
-│   │   ├── predicted_des_L2_dis_bet_traj_forward.npz
-│   │   └── recall_list.npy
+│   │   └── predicted_des_L2_dis_bet_traj_forward.npz (to be generated)
 │   └── test_results_kitti
-│       └── predicted_des_L2_dis.npz
+│       └── predicted_des_L2_dis.npz (to be generated)
 ├── tools
 │   ├── read_all_sets.py
 │   ├── read_samples_haomo.py
