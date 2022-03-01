@@ -8,7 +8,7 @@ OverlapTransformer (OT) is a novel lightweight neural network exploiting the ran
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database.gif" >  
 
-Fig. 1 An animation for finding the top1 candidate with **OverlapTransformer** on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.
+Fig. 1 An animation for finding the top1 candidate with OverlapTransformer on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/haomo_dataset.png" >  
 
