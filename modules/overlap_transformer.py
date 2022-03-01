@@ -1,7 +1,12 @@
+import os
+import sys
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
+sys.path.append('../tools/')
 import torch
 import torch.nn as nn
-import sys
-sys.path.append('../tools/')
+
 from modules.netvlad import NetVLADLoupe
 import torch.nn.functional as F
 from tools.read_samples import read_one_need_from_seq

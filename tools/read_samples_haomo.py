@@ -1,8 +1,13 @@
-import torch
-import numpy as np
+import os
 import sys
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
 sys.path.append('../tools/')
 sys.path.append('../modules/')
+    
+import torch
+import numpy as np
 np.set_printoptions(threshold=sys.maxsize)
 from utils.utils import *
 import yaml

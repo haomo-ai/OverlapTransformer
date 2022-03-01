@@ -1,8 +1,12 @@
+import os
+import sys
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
+    
 from matplotlib import pyplot as plt
 import torch
-import os
 import numpy as np
-import sys
 from modules.overlap_transformer import featureExtracter
 from tools.read_samples import read_one_need_from_seq
 np.set_printoptions(threshold=sys.maxsize)

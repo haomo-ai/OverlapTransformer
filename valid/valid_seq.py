@@ -1,9 +1,13 @@
-import torch
 import os
-import numpy as np
 import sys
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
 sys.path.append('../tools/')
-sys.path.append('../modules/')
+sys.path.append('../modules/')    
+
+import torch
+import numpy as np
 from tools.read_samples import read_one_need_from_seq
 np.set_printoptions(threshold=sys.maxsize)
 from tqdm import tqdm

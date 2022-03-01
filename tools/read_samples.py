@@ -1,9 +1,13 @@
 import os
+import sys
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
+    
 import matplotlib.pyplot as plt
 import torch
 import cv2
 import numpy as np
-import sys
 np.set_printoptions(threshold=sys.maxsize)
 from utils.utils import *
 import yaml

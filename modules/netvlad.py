@@ -1,3 +1,9 @@
+import os
+import sys
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
+    
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

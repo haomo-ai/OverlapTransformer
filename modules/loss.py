@@ -1,8 +1,14 @@
+import os
+import sys
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
+    
 import torch
 import torch.nn as nn
 import os
 import numpy as np
-import sys
+
 
 def best_pos_distance(query, pos_vecs):
     num_pos = pos_vecs.shape[0]

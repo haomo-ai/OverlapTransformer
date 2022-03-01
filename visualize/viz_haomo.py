@@ -1,10 +1,16 @@
+import os
+import sys
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
+sys.path.append('../tools/')
+sys.path.append('../modules/')   
+ 
 import matplotlib.pyplot as plt
 import torch
 import yaml
 import numpy as np
-import sys
-sys.path.append('../tools/')
-sys.path.append('../modules/')
+
 from modules.overlap_transformer_haomo import featureExtracter
 from tools.read_samples_haomo import read_one_need_from_seq
 from tools.read_samples_haomo import read_one_need_from_seq_test

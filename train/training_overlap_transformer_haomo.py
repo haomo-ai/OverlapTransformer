@@ -1,9 +1,14 @@
-import torch
-import numpy as np
+import os
 import sys
-from tensorboardX import SummaryWriter
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
 sys.path.append('../tools/')
 sys.path.append('../modules/')
+    
+import torch
+import numpy as np
+from tensorboardX import SummaryWriter
 from modules.overlap_transformer_haomo import featureExtracter
 from tools.read_samples_haomo import read_one_batch_pos_neg
 from tools.read_samples_haomo import read_one_need_from_seq

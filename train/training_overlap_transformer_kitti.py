@@ -1,6 +1,12 @@
+import os
+import sys
+p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
+if p not in sys.path:
+    sys.path.append(p)
+sys.path.append('../tools/')
+sys.path.append('../modules/')    
 import torch
 import numpy as np
-import sys
 from tensorboardX import SummaryWriter
 from tools.read_all_sets import overlap_orientation_npz_file2string_string_nparray
 from modules.overlap_transformer import featureExtracter
@@ -11,8 +17,7 @@ import modules.loss as PNV_loss
 from tools.utils.utils import *
 from valid.valid_seq import validate_seq_faiss
 import yaml
-sys.path.append('../tools/')
-sys.path.append('../modules/')
+
 
 class trainHandler():
     def __init__(self, height=64, width=900, channels=5, norm_layer=None, use_transformer=True, lr = 0.001,
