@@ -142,6 +142,16 @@ cd train
 python ./training_overlap_transformer_kitti.py
 ```
 
+### Testing
+
+Once a model has been trained , the performance of the network can be evaluated. Before testing, the parameters shoud be set in [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml)
+
+- `test_seqs`: sequence number for evaluation which is "00" in our work.
+- `test_weights`: path of the pretrained model.
+- `gt_file`: path of the ground truth file provided by the author of OverlapNet, which can be downloaded [here]().
+
+
+Therefore you can start the testing script after you set :
 
 
 
