@@ -46,7 +46,7 @@ To use a GPU, first you need to install the nvidia driver and CUDA.
   ```  
   
 
-- Python dependencies (may also work with different versions than mentioned in the requirements file)
+- Other Python dependencies (may also work with different versions than mentioned in the requirements file)
 
   ```bash
   sudo -H pip3 install -r requirements.txt
