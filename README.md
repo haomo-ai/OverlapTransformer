@@ -117,13 +117,18 @@ In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/ma
   ├── ...
   └── 10
   
-  
-  # KITTI sequence 02 velodyne
-  valid_scan_folder: "/home/mjy/datasets/kitti/00/velodyne"
-  # KITTI sequence 02 computed overlaps
-  gt_valid_folder: "/home/mjy/dev/OverlapNet++/kittiHandler/computed_overlap/"
-```
+  valid_scan_folder (KITTI sequence 02 velodyne) follows:
+  ├── 000000.bin
+  ├── 000001.bin
+  ...
 
+  gt_valid_folder (KITTI sequence 02 computed overlaps) follows:
+  ├── 02
+  │   ├── overlap_0.npy
+  │   ├── overlap_10.npy
+  ...
+```
+You can find _gt_valid_folder_ for sequence 02 [here]().
 
 
   
