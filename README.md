@@ -128,9 +128,18 @@ In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/ma
   │   ├── overlap_10.npy
   ...
 ```
-You can find _gt_valid_folder_ for sequence 02 [here]().
+You can find _gt_valid_folder_ for sequence 02 [here]().  
 
 
-  
-  
-  
+### Training
+
+In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), _training_seqs_ are set for the KITTI sequencs used for training.  
+
+You can start the training with
+
+
+
+
+
+
+
