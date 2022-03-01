@@ -128,7 +128,7 @@ In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/ma
   │   ├── overlap_10.npy
   ...
 ```
-You can find _gt_valid_folder_ for sequence 02 [here]().  
+You can find `gt_valid_folder` for sequence 02 [here]().  
 
 
 ### Training
@@ -163,7 +163,7 @@ python test_kitti00_PR.py
 After you run `test_kitti00_PR_prepare.py`, a file named `predicted_des_L2_dis.npz` is generated in `test_results_kitti`, which is used by `python test_kitti00_PR.py`
 
 ### visualization
-We provide a visualization demo for Haomo dataset To be provided. Please download the [descriptors]() firstly and then:
+We provide a visualization demo for Haomo dataset To be provided (Fig. 2). Please download the [descriptors]() firstly and then:
 ```
 cd visualize
 python viz_haomo.py
