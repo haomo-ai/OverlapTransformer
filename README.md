@@ -43,7 +43,7 @@ To use a GPU, first you need to install the nvidia driver and CUDA.
 ## How to use
 We currently only provide the training and test tutorials for KITTI sequences in this repository. The tutorials for Haomo dataset will be open-source once Haomo dataset is released.  
 
-For a quick test of the training and testing procedures, you could use our [pretrained model]().  
+For a quick test of the training and testing procedures, you could use our [pretrained model](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
 
 ### Data structure
 
@@ -163,7 +163,9 @@ cd test
 python test_kitti00_PR_prepare.py
 python test_kitti00_PR.py
 ```
-After you run `test_kitti00_PR_prepare.py`, a file named `predicted_des_L2_dis.npz` is generated in `test_results_kitti`, which is used by `python test_kitti00_PR.py`
+After you run `test_kitti00_PR_prepare.py`, a file named `predicted_des_L2_dis.npz` is generated in `test_results_kitti`, which is used by `python test_kitti00_PR.py`  
+
+For a quick test of the training and testing procedures, you could use our [pretrained model](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
 
 ### visualization
 We provide a visualization demo for Haomo dataset To be provided (Fig. 2). Please download the [descriptors]() firstly and then:
