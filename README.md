@@ -166,7 +166,7 @@ After you run `test_kitti00_PR_prepare.py`, a file named `predicted_des_L2_dis.n
 For a quick test of the training and testing procedures, you could use our [pretrained model](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
 
 ### Visualization
-We provide a visualization demo for Haomo dataset To be provided (Fig. 2). Please download the [descriptors](https://drive.google.com/file/d/13btLQiUokuSHYx229WxtcHGw49-oxmX2/view?usp=sharing) firstly and then:
+We provide a visualization demo for Haomo dataset To be provided (Fig. 1). Please download the [descriptors](https://drive.google.com/file/d/13btLQiUokuSHYx229WxtcHGw49-oxmX2/view?usp=sharing) firstly and then:
 ```
 cd visualize
 python viz_haomo.py
