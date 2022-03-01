@@ -137,6 +137,10 @@ In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/ma
 
 You can start the training with
 
+```
+cd train
+python ./training_overlap_transformer_kitti.py
+```
 
 
 
