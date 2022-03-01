@@ -6,6 +6,8 @@ The code for our paper submitted to IROS 2022:
 
 OverlapTransformer (OT) is a novel lightweight neural network exploiting the range image representation of LiDAR sensors to achieve fast execution with **less than 4 ms per frame**. The arxiv link is coming soon ...
 
+Developed by [Junyi Ma](https://github.com/BIT-MJY) and [Xieyuanli Chen](https://github.com/Chen-Xieyuanli).
+
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database.gif" >  
 
 Fig. 1 An animation for finding the top1 candidate with OverlapTransformer on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.
