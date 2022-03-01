@@ -8,11 +8,11 @@ OverlapTransformer is a novel lightweight neural network exploiting the range im
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database.gif" >  
 
-This is an animation for finding the top1 candidate with **OverlapTransformer** on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**. 
+*An animation for finding the top1 candidate with **OverlapTransformer** on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**. 
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/haomo_dataset.png" >  
 
-**Haomo dataset** which is collected by **HAOMO.AI** will be released soon.   
+***Haomo dataset** which is collected by **HAOMO.AI** will be released soon. 
 
 
 ## Dependencies
