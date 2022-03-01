@@ -10,3 +10,29 @@ OverlapTransformer is a novel lightweight neural network exploiting the range im
 
 This is an animation for finding the top1 candidate with **OverlapTransformer** on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.  
 **Haomo dataset** which is collected by **HAOMO.AI** will be released soon.   
+
+
+## Dependencies
+
+We are using pytorch-gpu for neural networks.
+
+A nvidia GPU is needed for faster retrival.
+OverlapTransformer (OT) is also fast enough when using the neural network on CPU.
+
+To use a GPU, first you need to install the nvidia driver and CUDA.
+
+- CUDA Installation guide: [link](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+
+- System dependencies:
+
+  ```bash
+  sudo apt-get update 
+  sudo apt-get install -y python3-pip python3-tk
+  sudo -H pip3 install --upgrade pip
+  ```
+
+- Python dependencies (may also work with different versions than mentioned in the requirements file)
+
+  ```bash
+  sudo -H pip3 install -r requirements.txt
+  ```
