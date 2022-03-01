@@ -46,6 +46,8 @@ We currently only provide the training and test tutorials for KITTI sequences in
 For a quick test of the training and testing procedures, you could use our [pretrained model]().  
 
 #### Data structure
+
+```bash
 ├── config
 │   ├── config_haomo.yml
 │   └── config.yml
@@ -91,8 +93,7 @@ For a quick test of the training and testing procedures, you could use our [pret
 └── weights
     ├── pretrained_overlap_transformer_haomo.pth.tar
     └── pretrained_overlap_transformer.pth.tar
-
-
+```
   
   
   
