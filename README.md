@@ -45,7 +45,7 @@ To use a GPU, first you need to install the nvidia driver and CUDA.
 ## How to use
 We currently only provide the training and test tutorials for KITTI sequences in this repository. The tutorials for Haomo dataset will be open-source once Haomo dataset is released.  
 
-For a quick test of the training and testing procedures, you could use our [pretrained model](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
+For a quick test of the training and testing procedures, you could use our [model pretrained on KITTI](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
 
 ### Data structure
 
