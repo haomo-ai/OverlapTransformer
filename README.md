@@ -158,6 +158,7 @@ cd test
 python test_kitti00_PR_prepare.py
 python test_kitti00_PR.py
 ```
+After you run `test_kitti00_PR_prepare.py`, a file named `predicted_des_L2_dis.npz` is generated in `test_results_kitti`, which is used by `python test_kitti00_PR.py`
 
 
 
