@@ -100,7 +100,7 @@ We will recommend you follow our data structure.
     └── pretrained_overlap_transformer.pth.tar
 ```
 #### Dataset structure
-In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), the parameters of _data_root_ are described as follows:
+In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), the parameters of `data_root` are described as follows:
 ```
   data_root_folder (KITTI sequences root) follows:
   ├── 00
@@ -133,7 +133,7 @@ You can find _gt_valid_folder_ for sequence 02 [here]().
 
 ### Training
 
-In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), _training_seqs_ are set for the KITTI sequencs used for training.  
+In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), `training_seqs` are set for the KITTI sequencs used for training.  
 
 You can start the training with
 
@@ -151,9 +151,13 @@ Once a model has been trained , the performance of the network can be evaluated.
 - `gt_file`: path of the ground truth file provided by the author of OverlapNet, which can be downloaded [here]().
 
 
-Therefore you can start the testing script after you set :
+Therefore you can start the testing scripts as follows:
 
-
+```
+cd test
+python test_kitti00_PR_prepare.py
+python test_kitti00_PR.py
+```
 
 
 
