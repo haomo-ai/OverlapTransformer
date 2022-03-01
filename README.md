@@ -78,13 +78,7 @@ We will recommend you follow our data structure.
 │   ├── read_samples_haomo.py
 │   ├── read_samples.py
 │   └── utils
-│       ├── gen_curv_data.py
 │       ├── gen_depth_data.py
-│       ├── gen_intensity_data.py
-│       ├── gen_normal_data.py
-│       ├── gen_semantic_data.py
-│       ├── __init__.py
-│       ├── normalize_data.py
 │       ├── split_train_val.py
 │       └── utils.py
 ├── train
@@ -114,9 +108,7 @@ In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/ma
   │     ├── 000001.png
   │     ├── 000002.png
   │     ├── ...
-  │   ├── normal_map
-  │   ├── overlaps
-  │   └── poses_withloop.txt
+  │   └── overlaps
   ├── 01
   ├── 02
   ├── ...
@@ -137,6 +129,7 @@ You should download or generate the following files and put them in the right po
 - You can find `gt_valid_folder` for sequence 02 [here](https://drive.google.com/file/d/13_1j20Uq3ppjVEkYaYcKjiJ2Zm7tudyH/view?usp=sharing).   
 - Since all the KITTI sequences need a large memory, we recommend you generate range images such as `00/depth_map/000000.png` by the preprocessing from [Overlap_Localization](https://github.com/PRBonn/overlap_localization/blob/master/src/prepare_training/gen_depth_and_normal_map.py) or its [C++ version](https://github.com/PRBonn/overlap_localization/tree/master/src/prepare_training/c_utils), and we will not provide these images. Please note that in OverlapTransformer, the `.png` images are used instead of `.npy` files saved in [Overlap_Localization](https://github.com/PRBonn/overlap_localization/blob/master/src/prepare_training/gen_depth_and_normal_map.py).
 - More directly, you can generate `.png` range images by [the script from OverlapNet](https://github.com/haomo-ai/OverlapTransformer/blob/master/tools/utils/gen_depth_data.py) updated by us.
+- `overlaps` of each sequence are provided by the authors of OverlapNet [here]().
 
 
 ### Training
