@@ -172,10 +172,10 @@ cd visualize
 python viz_haomo.py
 ```
 
-### C++ implemention
+### C++ implemention (Coming soon)
 
 We will provide a C++ implemention of OverlapTransformer with libtorch for faster retrival.  
 
 
-### License
+## License
 Coming soon ...
