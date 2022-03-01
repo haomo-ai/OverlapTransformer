@@ -4,7 +4,7 @@ The code for our paper submitted to IROS 2022:
 
 **OverlapTransformer: An Efficient and Rotation-Invariant Transformer Network for LiDAR-Based Place Recognition.**  
 
-OverlapTransformer is a novel lightweight neural network exploiting the range image representation of LiDAR sensors to achieve fast execution with less than 4 ms per frame. The arxiv link is coming soon ...
+OverlapTransformer (OT) is a novel lightweight neural network exploiting the range image representation of LiDAR sensors to achieve fast execution with less than 4 ms per frame. The arxiv link is coming soon ...
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database.gif" >  
 
@@ -20,7 +20,7 @@ Fig. 2 **Haomo dataset** which is collected by **HAOMO.AI** will be released soo
 We are using pytorch-gpu for neural networks.
 
 A nvidia GPU is needed for faster retrival.
-OverlapTransformer (OT) is also fast enough when using the neural network on CPU.
+OverlapTransformer is also fast enough when using the neural network on CPU.
 
 To use a GPU, first you need to install the nvidia driver and CUDA.
 
