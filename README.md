@@ -8,7 +8,7 @@ OverlapTransformer (OT) is a novel lightweight neural network exploiting the ran
 
 Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli) and [Jun Zhang](https://github.com/zhangjun-xyz).
 
-<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database.gif" >  
+<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_haomo.gif" >  
 
 Fig. 1 An animation for finding the top1 candidate with OverlapTransformer on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.
 
@@ -191,6 +191,9 @@ cd visualize
 python viz_kitti.py
 ```
 
+<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_kitti.gif" >  
+Fig. 3 Evaluation on KITTI 00 with search space from SUMA++.  
+ 
 We also provide a visualization demo for Haomo dataset after Haomo dataset is released (Fig. 1). Please download the [descriptors](https://drive.google.com/file/d/13btLQiUokuSHYx229WxtcHGw49-oxmX2/view?usp=sharing) of database (sequence 1-1 of Haomo dataset) firstly and then:
 ```
 cd visualize
