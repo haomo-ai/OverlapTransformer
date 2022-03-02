@@ -5,8 +5,6 @@ data_root:
   valid_scan_folder: "/home/mjy/datasets/kitti/00/velodyne"
   # KITTI sequence 02 computed overlaps
   gt_valid_folder: "/home/mjy/dev/OverlapNet++/kittiHandler/computed_overlap/"
-#  calib_file_folder: "/home/mjy/datasets/kitti/data_odometry_calib/dataset/sequences/"
-#  pose_file_folder: "/home/mjy/datasets/kitti/data_odometry_poses/dataset/poses/"
 
 training_config:
   # KITTI sequences for training
@@ -21,6 +19,9 @@ test_config:
   gt_file: "/home/mjy/dev/OverlapNet++/kittiHandler/overlapnet_test00_methods/loop_gt_seq00_0.3overlap_inactive.npz"
 
 viz_config:
+  # calibration file from KITTI 00
   calib_file: "/home/mjy/datasets/kitti/data_odometry_calib/dataset/sequences/00/calib.txt"
+  # pose file from SUMA++ on KITTI 00
   poses_file: "/home/mjy/datasets/kitti/data_odometry_poses/dataset/poses/00.txt"
+  # covariance file from SUMA++ on KITTI 00
   cov_file: "/home/mjy/dev/OverlapNet++/kittiHandler/overlapnet_test00_methods/covariance_2nd.txt"
