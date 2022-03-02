@@ -145,7 +145,7 @@ You should download or generate the following files and put them in the right po
 
 ### Training
 
-In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), `training_seqs` are set for the KITTI sequencs used for training.  
+In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), `training_seqs` are set for the KITTI sequences used for training.  
 
 You can start the training with
 
