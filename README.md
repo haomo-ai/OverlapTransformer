@@ -178,6 +178,8 @@ For a quick test of the training and testing procedures, you could use our [pret
 
 ### Visualization 
 
+#### Visualize evaluation on KITTI 00
+
 Firstly, to visualize evaluation on KITTI 00 with search space, the follwoing three files should be downloaded:
 - [calib_file](https://drive.google.com/file/d/1LAcFrRSZQPxdD4EKSwIC0d3-uGvLB3yk/view?usp=sharing): calibration file from KITTI 00.
 - [poses_file](https://drive.google.com/file/d/1n02m1OqxK122ce8Cjz_N68PkazGqzj9l/view?usp=sharing): pose file from KITTI 00.
@@ -193,6 +195,8 @@ python viz_kitti.py
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_kitti.gif" width="70%" height="70%">  
 Fig. 3 Evaluation on KITTI 00 with search space from SUMA++.    
+
+#### Visualize evaluation on Haomo challenge 1
 
 We also provide a visualization demo for Haomo dataset after Haomo dataset is released (Fig. 1). Please download the [descriptors](https://drive.google.com/file/d/13btLQiUokuSHYx229WxtcHGw49-oxmX2/view?usp=sharing) of database (sequence 1-1 of Haomo dataset) firstly and then:  
 
