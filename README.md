@@ -12,7 +12,7 @@ Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://gi
 
 Fig. 1 An animation for finding the top1 candidate with OverlapTransformer on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.
 
-<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/haomo_dataset.png" >  
+<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/haomo_dataset.png" width="80%" height="80%">    
 
 Fig. 2 **Haomo dataset** which is collected by **HAOMO.AI** will be released soon. 
 
