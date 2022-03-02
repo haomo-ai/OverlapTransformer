@@ -19,3 +19,8 @@ test_config:
   test_weights: "/home/mjy/dev/OverlapTransformer/weights/pretrained_overlap_transformer.pth.tar"
   # ground truth
   gt_file: "/home/mjy/dev/OverlapNet++/kittiHandler/overlapnet_test00_methods/loop_gt_seq00_0.3overlap_inactive.npz"
+
+viz_config:
+  calib_file: "/home/mjy/datasets/kitti/data_odometry_calib/dataset/sequences/00/calib.txt"
+  poses_file: "/home/mjy/datasets/kitti/data_odometry_poses/dataset/poses/00.txt"
+  cov_file: "/home/mjy/dev/OverlapNet++/kittiHandler/overlapnet_test00_methods/covariance_2nd.txt"
