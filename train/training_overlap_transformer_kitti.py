@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# Developed by Junyi Ma, Xieyuanli Chen, and Jun Zhang
+# This file is covered by the LICENSE file in the root of the project OverlapTransformer:
+# https://github.com/haomo-ai/OverlapTransformer/
+# Brief: train OverlapTransformer with KITTI sequences
+
+
 import os
 import sys
 p = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
