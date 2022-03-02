@@ -182,6 +182,8 @@ Firstly, to visualize evaluation on KITTI 00 with search space, the follwoing th
 - [calib_file](https://drive.google.com/file/d/1LAcFrRSZQPxdD4EKSwIC0d3-uGvLB3yk/view?usp=sharing): calibration file from KITTI 00.
 - [poses_file](https://drive.google.com/file/d/1n02m1OqxK122ce8Cjz_N68PkazGqzj9l/view?usp=sharing): pose file from KITTI 00.
 - [cov_file](https://drive.google.com/file/d/1ZaY_OJegIsI0rD5WGOzJ296dh7c7wyiz/view?usp=sharing): covariance file from SUMA++ on KITTI 00.
+
+  
 and modify the paths in the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml). Then
 
 ```
