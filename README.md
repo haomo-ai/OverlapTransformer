@@ -191,7 +191,7 @@ cd visualize
 python viz_kitti.py
 ```
 
-<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_kitti.gif" width="50%" height="50%">  
+<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_kitti.gif" width="70%" height="70%">  
 Fig. 3 Evaluation on KITTI 00 with search space from SUMA++.  
  
 We also provide a visualization demo for Haomo dataset after Haomo dataset is released (Fig. 1). Please download the [descriptors](https://drive.google.com/file/d/13btLQiUokuSHYx229WxtcHGw49-oxmX2/view?usp=sharing) of database (sequence 1-1 of Haomo dataset) firstly and then:
