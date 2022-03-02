@@ -177,7 +177,19 @@ After you run `test_kitti00_PR_prepare.py`, a file named `predicted_des_L2_dis.n
 For a quick test of the training and testing procedures, you could use our [pretrained model](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
 
 ### Visualization (after Haomo dataset is released)
-We provide a visualization demo for Haomo dataset To be provided (Fig. 1). Please download the [descriptors](https://drive.google.com/file/d/13btLQiUokuSHYx229WxtcHGw49-oxmX2/view?usp=sharing) of database (sequence 1-1 of Haomo dataset) firstly and then:
+
+Firstly, to visualize evaluation on KITTI 00 with search space, the follwoing three files should be downloaded:
+- [calib_file](https://drive.google.com/file/d/1LAcFrRSZQPxdD4EKSwIC0d3-uGvLB3yk/view?usp=sharing): calibration file from KITTI 00.
+- [poses_file](https://drive.google.com/file/d/1n02m1OqxK122ce8Cjz_N68PkazGqzj9l/view?usp=sharing): pose file from KITTI 00.
+- [cov_file](https://drive.google.com/file/d/1ZaY_OJegIsI0rD5WGOzJ296dh7c7wyiz/view?usp=sharing): covariance file from SUMA++ on KITTI 00.
+and modify the paths in the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml). Then
+
+```
+cd visualize
+python viz_kitti.py
+```
+
+We also provide a visualization demo for Haomo dataset To be provided (Fig. 1). Please download the [descriptors](https://drive.google.com/file/d/13btLQiUokuSHYx229WxtcHGw49-oxmX2/view?usp=sharing) of database (sequence 1-1 of Haomo dataset) firstly and then:
 ```
 cd visualize
 python viz_haomo.py
