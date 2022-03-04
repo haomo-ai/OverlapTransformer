@@ -64,9 +64,6 @@ The tutorials for Haomo dataset will be released together with Haomo dataset.
 
 We will recommend you follow our data structure.
 
-#### OT structure
-
-
 ```bash
 ├── config
 │   ├── config_haomo.yml
