@@ -1,16 +1,19 @@
 # OverlapTransformer
 
-The code for our paper submitted to IROS 2022:  
+The code for our paper submitted to RAL/IROS 2022:  
 
 **OverlapTransformer: An Efficient and Rotation-Invariant Transformer Network for LiDAR-Based Place Recognition.**  
 
-OverlapTransformer (OT) is a novel lightweight neural network exploiting the range image representation of LiDAR sensors to achieve fast execution with **less than 4 ms per frame**. The arxiv link is coming soon ...
+OverlapTransformer is a novel lightweight neural network exploiting the range image representation of LiDAR sensors to achieve fast execution with **less than 4 ms per frame**. 
+It is a newer version of our previous [OverlapNet](https://github.com/PRBonn/OverlapNet), which is faster and more accurate in LiDAR-based loop closure detection and place recognition.
+
+The arxiv paper is coming soon ...
 
 Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli) and [Jun Zhang](https://github.com/zhangjun-xyz).
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_haomo.gif" >  
 
-Fig. 1 An animation for finding the top1 candidate with OverlapTransformer on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.
+Fig. 1 An online demo for finding the top1 candidate with OverlapTransformer on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/haomo_dataset.png" >    
 
@@ -19,9 +22,9 @@ Fig. 2 **Haomo dataset** which is collected by **HAOMO.AI** will be released soo
 
 ## Dependencies
 
-We are using pytorch-gpu for neural networks.
+We use pytorch-gpu for neural networks.
 
-A nvidia GPU is needed for faster retrival.
+An nvidia GPU is needed for faster retrival.
 OverlapTransformer is also fast enough when using the neural network on CPU.
 
 To use a GPU, first you need to install the nvidia driver and CUDA.
@@ -54,9 +57,8 @@ To use a GPU, first you need to install the nvidia driver and CUDA.
   ```
   
 ## How to use
-We currently only provide the training and test tutorials for KITTI sequences in this repository. The tutorials for Haomo dataset will be open-source once Haomo dataset is released.  
-
-For a quick test of the training and testing procedures, you could use our [model pretrained on KITTI](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
+We provide a training and test tutorials for KITTI sequences in this repository. 
+The tutorials for Haomo dataset will be released together with Haomo dataset.  
 
 ### Data structure
 
@@ -142,6 +144,11 @@ You should download or generate the following files and put them in the right po
 - More directly, you can generate `.png` range images by [the script from OverlapNet](https://github.com/haomo-ai/OverlapTransformer/blob/master/tools/utils/gen_depth_data.py) updated by us.
 - `overlaps` folder of each sequence below `data_root_folder` is provided by the authors of OverlapNet [here](https://drive.google.com/file/d/1i333NUC1DnJglXasqkGYCmo9p45Fx28-/view?usp=sharing).
 
+### Quick Use
+
+For a quick use, you could download our [model pretrained on KITTI](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
+
+**TODO**: give a demo about how to use our network to estimate the similarity of two scans.
 
 ### Training
 
@@ -195,7 +202,7 @@ python viz_kitti.py
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_kitti.gif" width="70%" height="70%">  
   
-Fig. 3 Evaluation on KITTI 00 with search space from [Suma](https://github.com/PRBonn/semantic_suma).    
+Fig. 3 Evaluation on KITTI 00 with search space from [SuMa++](https://github.com/PRBonn/semantic_suma) (a semantic LiDAR SLAM method).    
 
 #### Visualize evaluation on Haomo challenge 1 (after Haomo dataset is released)
 
