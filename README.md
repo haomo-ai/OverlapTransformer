@@ -141,6 +141,18 @@ You need to download or generate the following files and put them in the right p
 - More directly, you can generate `.png` range images by [the script from OverlapNet](https://github.com/haomo-ai/OverlapTransformer/blob/master/tools/utils/gen_depth_data.py) updated by us.
 - `overlaps` folder of each sequence below `data_root_folder` is provided by the authors of OverlapNet [here](https://drive.google.com/file/d/1i333NUC1DnJglXasqkGYCmo9p45Fx28-/view?usp=sharing).
 
+### demo
+Firstly, we provide a demo to show the overlaps between scans. The follwoing two files should be downloaded and `demo1_config` in the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml) should be modified:
+- [calib_file](https://drive.google.com/file/d/1LAcFrRSZQPxdD4EKSwIC0d3-uGvLB3yk/view?usp=sharing): calibration file from KITTI 00.
+- [poses_file](https://drive.google.com/file/d/1n02m1OqxK122ce8Cjz_N68PkazGqzj9l/view?usp=sharing): pose file from KITTI 00.
+
+Then you can see a query scan (000000.bin of KITTI 00) with a positive sample (000005.bin of KITTI 00) and a negative sample (000015.bin of KITTI 00) by:
+
+```
+cd demo
+python ./demo_compute_overlap.py
+```
+
 ### Quick Use
 
 For a quick use, you could download our [model pretrained on KITTI](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
