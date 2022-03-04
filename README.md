@@ -194,7 +194,8 @@ python viz_kitti.py
 ```
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_kitti.gif" width="70%" height="70%">  
-Fig. 3 Evaluation on KITTI 00 with search space from [Suma](https://github.com/PRBonn/semantic_suma).    
+Fig. 3 Evaluation on KITTI 00 with search space from [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml)
+[Suma](https://github.com/PRBonn/semantic_suma).    
 
 #### Visualize evaluation on Haomo challenge 1 (after Haomo dataset is released)
 
