@@ -4,7 +4,7 @@ The code for our paper submitted to RAL/IROS 2022:
 
 **OverlapTransformer: An Efficient and Rotation-Invariant Transformer Network for LiDAR-Based Place Recognition.**  
 
-OverlapTransformer is a novel lightweight neural network exploiting the range image representation of LiDAR sensors to achieve fast execution with **less than 4 ms per frame**. 
+OverlapTransformer is a novel lightweight neural network exploiting the LiDAR range images to achieve fast execution with **less than 4 ms per frame** in LiDAR similarity estimation. 
 It is a newer version of our previous [OverlapNet](https://github.com/PRBonn/OverlapNet), which is faster and more accurate in LiDAR-based loop closure detection and place recognition.
 
 The arxiv paper is coming soon ...
