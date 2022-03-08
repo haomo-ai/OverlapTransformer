@@ -30,7 +30,7 @@ If you use our implementation in your academic work, please cite the correspondi
     
 	@article{ma2020arxiv, 
 		author = {Junyi Ma and Jun Zhang and Jintao Xu and Rui Ai and Weihao Gu and Cyrill Stachniss and Xieyuanli Chen},
-		title  = {{OverlapNet: Loop Closing for LiDAR-based SLAM}},
+		title  = {{OverlapTransformer: An Efficient and Rotation-Invariant Transformer Network for LiDAR-Based Place Recognition}},
 		booktitle = {arXiv preprint},
 		eprint = {2203.03397},
 		year = {2022}
