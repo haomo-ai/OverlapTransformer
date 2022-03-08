@@ -32,7 +32,7 @@ If you use our implementation in your academic work, please cite the correspondi
 			author = {Junyi Ma and Jun Zhang and Jintao Xu and Rui Ai and Weihao Gu and Cyrill Stachniss and Xieyuanli Chen},
 			title  = {{OverlapNet: Loop Closing for LiDAR-based SLAM}},
 			booktitle = {arXiv preprint},
-      eprint = {2203.03397},
+			eprint = {2203.03397},
 			year = {2022}
 	}
 
