@@ -29,11 +29,11 @@ Fig. 2 **Haomo dataset** which is collected by **HAOMO.AI** will be released soo
 If you use our implementation in your academic work, please cite the corresponding paper ([PDF](https://arxiv.org/pdf/2203.03397.pdf)):  
     
 	@article{ma2020arxiv, 
-			author = {Junyi Ma and Jun Zhang and Jintao Xu and Rui Ai and Weihao Gu and Cyrill Stachniss and Xieyuanli Chen},
-			title  = {{OverlapNet: Loop Closing for LiDAR-based SLAM}},
-			booktitle = {arXiv preprint},
-			eprint = {2203.03397},
-			year = {2022}
+		author = {Junyi Ma and Jun Zhang and Jintao Xu and Rui Ai and Weihao Gu and Cyrill Stachniss and Xieyuanli Chen},
+		title  = {{OverlapNet: Loop Closing for LiDAR-based SLAM}},
+		booktitle = {arXiv preprint},
+		eprint = {2203.03397},
+		year = {2022}
 	}
 
 ## Dependencies
