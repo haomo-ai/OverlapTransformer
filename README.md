@@ -2,12 +2,10 @@
 
 The code for our paper submitted to RAL/IROS 2022:  
 
-**OverlapTransformer: An Efficient and Rotation-Invariant Transformer Network for LiDAR-Based Place Recognition.**  
+**OverlapTransformer: An Efficient and Rotation-Invariant Transformer Network for LiDAR-Based Place Recognition.** [PDF](https://arxiv.org/pdf/2203.03397.pdf) 
 
 OverlapTransformer is a novel lightweight neural network exploiting the LiDAR range images to achieve fast execution with **less than 4 ms per frame** in LiDAR similarity estimation. 
 It is a newer version of our previous [OverlapNet](https://github.com/PRBonn/OverlapNet), which is faster and more accurate in LiDAR-based loop closure detection and place recognition.
-
-The arxiv paper is coming soon ...
 
 Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli) and [Jun Zhang](https://github.com/zhangjun-xyz).
 
@@ -19,6 +17,24 @@ Fig. 1 An online demo for finding the top1 candidate with OverlapTransformer on 
 
 Fig. 2 **Haomo dataset** which is collected by **HAOMO.AI** will be released soon. 
 
+
+### Table of Contents
+1. [Introduction](#OverlapTransformer)
+2. [Publication](#Publication)
+3. [Dependencies](#Dependencies)
+4. [How to use](#How-to-use)
+5. [License](#License)
+
+## Publication
+If you use our implementation in your academic work, please cite the corresponding paper ([PDF](https://arxiv.org/pdf/2203.03397.pdf)):  
+    
+	@article{ma2020arxiv, 
+			author = {Junyi Ma and Jun Zhang and Jintao Xu and Rui Ai and Weihao Gu and Cyrill Stachniss and Xieyuanli Chen},
+			title  = {{OverlapNet: Loop Closing for LiDAR-based SLAM}},
+			booktitle = {arXiv preprint},
+      eprint = {2203.03397},
+			year = {2022}
+	}
 
 ## Dependencies
 
