@@ -28,7 +28,7 @@ Fig. 2 **Haomo dataset** which is collected by **HAOMO.AI** will be released soo
 ## Publication
 If you use our implementation in your academic work, please cite the corresponding paper ([PDF](https://arxiv.org/pdf/2203.03397.pdf)):  
     
-	@article{ma2020arxiv, 
+	@article{ma2022arxiv, 
 		author = {Junyi Ma and Jun Zhang and Jintao Xu and Rui Ai and Weihao Gu and Cyrill Stachniss and Xieyuanli Chen},
 		title  = {{OverlapTransformer: An Efficient and Rotation-Invariant Transformer Network for LiDAR-Based Place Recognition}},
 		booktitle = {arXiv preprint},
