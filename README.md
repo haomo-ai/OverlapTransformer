@@ -252,7 +252,7 @@ cmake ..
 make -j6
 ./fast_ot 
 ```
-You can find our C++ OT can generate a decriptor with less than 2 ms per frame.
+You can find our C++ OT can generate a decriptor with less than **2 ms** per frame.
 
 
 ## License
