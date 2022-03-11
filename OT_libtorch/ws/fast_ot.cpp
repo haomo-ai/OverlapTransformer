@@ -105,7 +105,7 @@ int main()
     int height = 32;
     int len_arr = width*height;
     float range_image[len_arr];
-    gen_range_image(range_image, cloud0, 15, -16, 32, 900, 80);
+    gen_range_image(range_image, cloud0, 3, -25, 64, 900, 50);
 
 
 
