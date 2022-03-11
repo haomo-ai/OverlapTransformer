@@ -244,7 +244,7 @@ We provide a C++ implemention of OverlapTransformer with libtorch for faster ret
 * Here we use [LibTorch for CUDA 11.3 (Pre-cxx11 ABI)](https://download.pytorch.org/libtorch/cu113/libtorch-shared-with-deps-1.11.0%2Bcu113.zip). Please modify the path of **Torch_DIR** in [CMakeLists.txt](https://github.com/haomo-ai/OverlapTransformer/blob/master/OT_libtorch/ws/CMakeLists.txt).
 Then you can generate a descriptor of 000000.bin of KITTI 00 by
 ```
-cd OT_libtorch
+cd OT_libtorch/ws
 mkdir build
 cd build/
 cmake ..
