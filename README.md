@@ -162,16 +162,20 @@ You need to download or generate the following files and put them in the right p
 
 For a quick use, you could download our [model pretrained on KITTI](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
 
-The follwoing two files should be downloaded and `demo1_config` in the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml) should be modified:
+The follwoing two files should be downloaded :
 - [calib_file](https://drive.google.com/file/d/1LAcFrRSZQPxdD4EKSwIC0d3-uGvLB3yk/view?usp=sharing): calibration file from KITTI 00.
 - [poses_file](https://drive.google.com/file/d/1n02m1OqxK122ce8Cjz_N68PkazGqzj9l/view?usp=sharing): pose file from KITTI 00.
 
-Then you can see a query scan (000000.bin of KITTI 00) with a positive sample (000005.bin of KITTI 00) and a negative sample (000015.bin of KITTI 00) by:
+Then you should modify `demo1_config` in the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml).  
+
+Run the demo by:  
 
 ```
 cd demo
 python ./demo_compute_overlap_sim.py
 ```
+You can see a query scan (000000.bin of KITTI 00) with a positive sample (000005.bin of KITTI 00) and a negative sample (000015.bin of KITTI 00), and the corresponding overlap and similarity..
+
 
 ### Training
 
