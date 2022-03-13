@@ -176,7 +176,7 @@ python ./demo_compute_overlap_sim.py
 ```
 You can see a query scan (000000.bin of KITTI 00) with a positive sample (000005.bin of KITTI 00) and a negative sample (000015.bin of KITTI 00), and the corresponding overlap and similarity.  
 
-<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/demo.png" width="70%" height="70%">  
+<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/demo.png" width="100%" height="100%">  
 
 
 
