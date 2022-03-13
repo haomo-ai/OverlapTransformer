@@ -29,7 +29,6 @@ def com_overlap(scan_paths, poses, frame_idx):
   for i in range(len(scan_paths)):
     # generate range projection for the reference frame
     reference_idx = int(scan_paths[i][-10:-4])
-    print(reference_idx)
     reference_pose = poses[reference_idx]
     reference_points = load_vertex(scan_paths[i])
 

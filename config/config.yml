@@ -11,6 +11,8 @@ demo1_config:
   calib_file: "/home/mjy/datasets/kitti/data_odometry_calib/dataset/sequences/00/calib.txt"
   # pose file from KITTI 00
   poses_file: "/home/mjy/datasets/kitti/data_odometry_poses/dataset/poses/00.txt"
+  # pretrained model
+  test_weights: "/home/mjy/dev/OverlapTransformer/weights/pretrained_overlap_transformer.pth.tar"
 
 training_config:
   # KITTI sequences for training
@@ -19,7 +21,7 @@ training_config:
 test_config:
   # KITTI sequence 00 for evaluation
   test_seqs: ["00"]
-  # Pretrained model
+  # pretrained model
   test_weights: "/home/mjy/dev/OverlapTransformer/weights/pretrained_overlap_transformer.pth.tar"
   # ground truth
   gt_file: "/home/mjy/dev/OverlapNet++/kittiHandler/overlapnet_test00_methods/loop_gt_seq00_0.3overlap_inactive.npz"
