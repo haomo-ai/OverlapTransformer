@@ -170,7 +170,7 @@ Then you can see a query scan (000000.bin of KITTI 00) with a positive sample (0
 
 ```
 cd demo
-python ./demo_compute_overlap.py
+python ./demo_compute_overlap_sim.py
 ```
 
 ### Training
