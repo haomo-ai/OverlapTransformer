@@ -179,7 +179,7 @@ You can see a query scan (000000.bin of KITTI 00) with a positive sample (000005
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/demo.png" width="100%" height="100%">  
 
-Fig. 3 Demo for calculating overlap and similarity with OverlapTransformer.    
+Fig. 3 Demo for calculating overlap and similarity with our approach.    
 
 
 ### Training
