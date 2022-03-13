@@ -160,9 +160,7 @@ You need to download or generate the following files and put them in the right p
 
 ### Quick Use
 
-For a quick use, you could download our [model pretrained on KITTI](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
-
-The follwoing two files should be downloaded :
+For a quick use, you could download our [model pretrained on KITTI](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing), and the follwoing two files also should be downloaded :
 - [calib_file](https://drive.google.com/file/d/1LAcFrRSZQPxdD4EKSwIC0d3-uGvLB3yk/view?usp=sharing): calibration file from KITTI 00.
 - [poses_file](https://drive.google.com/file/d/1n02m1OqxK122ce8Cjz_N68PkazGqzj9l/view?usp=sharing): pose file from KITTI 00.
 
