@@ -126,6 +126,12 @@ class featureExtracter(nn.Module):
             out_l = self.net_vlad(out_l)
             out_l = F.normalize(out_l, dim=1)
 
+        else:
+            out_l = torch.cat((out_l_1, out_l_1), dim=1)
+            out_l = F.normalize(out_l, dim=1)
+            out_l = self.net_vlad(out_l)
+            out_l = F.normalize(out_l, dim=1)
+
         return out_l
 
 
