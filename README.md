@@ -265,6 +265,6 @@ You can find our C++ OT can generate a decriptor with **less than 2 ms per frame
 
 
 ## License
-Copyright 2020, Junyi Ma, Xieyuanli Chen, Jun Zhang, HAOMO.AI Technology Co., Ltd., China.
+Copyright 2022, Junyi Ma, Xieyuanli Chen, Jun Zhang, HAOMO.AI Technology Co., Ltd., China.
 
 This project is free software made available under the GPL v3.0 License. For details see the LICENSE file.
