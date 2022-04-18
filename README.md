@@ -14,8 +14,7 @@ Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://gi
 Fig. 1 An online demo for finding the top1 candidate with OverlapTransformer on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.
 
 <div align=center>
-<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/haomo_dataset.png" width="400"/><img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/dataset_short_term.gif" width="400"/><img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/dataset_short_term.png" >  
-
+<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/haomo_dataset.png" width="400"/><img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/dataset_short_term.gif" width="400"/>
 </div>  
 
 Fig. 2 **Haomo dataset** which is collected by **HAOMO.AI** will be released soon. 
