@@ -14,3 +14,5 @@ N_scans | 12500 | 22345 | 13500 | 100887 | 88154 |
 Length | 2.3 km | 2.3 km | 2.3 km | 11.5 km | 11.5 km |
 Direction | Same | Reverse | - | Same | - |
 Role | Database | Database | Query | Database | Query |
+
+The download link and the corresponding SDK of Haomo Dataset are coming soon ...
