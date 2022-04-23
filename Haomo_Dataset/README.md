@@ -20,4 +20,4 @@ Role | Database | Database | Query | Database | Query |
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/haomo_dataset.png" width="400"/><img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/dataset_short_term.gif" width="400"/>
 
 
-The download link and the corresponding SDK of Haomo dataset are coming soon ...
+**The download link and the corresponding SDK of Haomo dataset are coming soon ...**
