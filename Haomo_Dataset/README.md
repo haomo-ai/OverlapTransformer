@@ -7,6 +7,7 @@ Sequences 2-1 and 2-2 are collected along a much longer route from the same dire
 
 This dataset will be frequently updated to include highly dynamic and constantly updated traffic scenes. More different types of sensor data are also planned to be included.
 
+TABLE I: Statistics of Haomo dataset
 Sequence | 1-1 | 1-2 | 1-3 | 2-1 | 2-2 |
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 Date | 2021.12.08 | 2021.12.08 | 2021.12.08 | 2021.12.28 | 2022.01.13 |
