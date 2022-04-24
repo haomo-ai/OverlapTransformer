@@ -9,6 +9,8 @@ It is a newer version of our previous [OverlapNet](https://github.com/PRBonn/Ove
 
 Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli) and [Jun Zhang](https://github.com/zhangjun-xyz).
 
+### Haomo Dataset
+
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_haomo.gif" >  
 
 Fig. 1 An online demo for finding the top1 candidate with OverlapTransformer on sequence 1-1 (database) and 1-3 (query) of **Haomo dataset**.
@@ -17,11 +19,12 @@ Fig. 1 An online demo for finding the top1 candidate with OverlapTransformer on 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/haomo_dataset.png" width="400"/><img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/dataset_short_term.gif" width="400"/>
 </div>  
 
-Fig. 2 **Haomo dataset** which is collected by **HAOMO.AI** will be released soon. 
+Fig. 2 **Haomo dataset** which is collected by **HAOMO.AI**. 
 
+More details of **Haomo dataset** can be found here [link](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset).
 
 ### Table of Contents
-1. [Introduction](#OverlapTransformer)
+1. [Introduction and Haomo Dataset](#OverlapTransformer)
 2. [Publication](#Publication)
 3. [Dependencies](#Dependencies)
 4. [How to use](#How-to-use)
