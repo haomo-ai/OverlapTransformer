@@ -21,7 +21,7 @@ Fig. 1 An online demo for finding the top1 candidate with OverlapTransformer on 
 
 Fig. 2 [Haomo Dataset](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset) which is collected by **HAOMO.AI**. 
 
-More details of [Haomo Dataset](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset) can be found here [link](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset).
+More details of [Haomo Dataset](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset) can be found in dataset description ([link](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset)).
 
 ### Table of Contents
 1. [Introduction and Haomo Dataset](#OverlapTransformer)
