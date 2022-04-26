@@ -22,6 +22,8 @@ Role | Database | Database | Query | Database | Query |
 
 ## Download
 
+You can download the scans and poses of the LiDAR sensor from the following links.
+
 #### Sequence 1-1 and 1-2
 
 * [[scans](https://www.ipb.uni-bonn.de/html/projects/Haomo/1-1and1-2/scans.zip)]  
