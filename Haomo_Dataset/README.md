@@ -1,6 +1,6 @@
 # Haomo Dataset
 
-
+## Introduction
 We provide such a new challenging dataset called Haomo dataset to support future research. The dataset was collected by a mobile robot built by [HAOMO.AI Technology company](https://github.com/haomo-ai) equipped with a HESAI PandarXT 32-beam LiDAR sensor in urban environments of Beijing. There are currently five sequences in Haomo dataset as listed in Tab. I. Sequences 1-1 and 1-2 are collected from the same route in 8th December 2021 with opposite driving direction. An additional sequence 1-3 from the same route is utilized as the online query with respect to both 1-1 and 1-2 respectively to evaluate place recognition performance of forward and reverse driving.  
 
 Sequences 2-1 and 2-2 are collected along a much longer route from the same direction, but on different dates, 2-1 on 28th December 2021 and 2-2 on 13th January 2022, where the old one is used as a database while the newer one is used as query. The two sequences are for evaluating the performance for large-scale long-term place recognition.
@@ -20,4 +20,18 @@ Role | Database | Database | Query | Database | Query |
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/haomo_dataset.png" width="400"/><img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/dataset_short_term.gif" width="400"/>
 
 
-**The download link and the corresponding SDK of Haomo dataset are coming soon ...**
+## Download
+
+#### Sequence 1-1 and 1-2
+
+[scans](https://www.ipb.uni-bonn.de/html/projects/Haomo/1-1and1-2/scans.zip)    [poses](https://www.ipb.uni-bonn.de/html/projects/Haomo/1-1and1-2/1-1and1-2.txt)
+
+#### Sequence 1-3
+
+[scans](https://www.ipb.uni-bonn.de/html/projects/Haomo/1-3/scans.zip)    [poses](https://www.ipb.uni-bonn.de/html/projects/Haomo/1-3/1-3.txt)
+
+
+## Format
+
+Our dataset follows the data format of [KITTI odometry benchmark](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). 
+
