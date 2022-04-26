@@ -1,7 +1,7 @@
 # Haomo Dataset
 
 ## Introduction
-We provide such a new challenging dataset called Haomo dataset to support future research. The dataset was collected by a mobile robot built by [HAOMO.AI Technology company](https://github.com/haomo-ai) equipped with a HESAI PandarXT 32-beam LiDAR sensor in urban environments of Beijing. There are currently five sequences in Haomo dataset as listed in Tab. I. Sequences 1-1 and 1-2 are collected from the same route in 8th December 2021 with opposite driving direction. An additional sequence 1-3 from the same route is utilized as the online query with respect to both 1-1 and 1-2 respectively to evaluate place recognition performance of forward and reverse driving.  
+We provide such a new challenging dataset called **Haomo dataset** to support future research. The dataset was collected by a mobile robot built by [HAOMO.AI Technology company](https://github.com/haomo-ai) equipped with a HESAI PandarXT 32-beam LiDAR sensor in urban environments of Beijing. There are currently five sequences in Haomo dataset as listed in Tab. I. Sequences 1-1 and 1-2 are collected from the same route in 8th December 2021 with opposite driving direction. An additional sequence 1-3 from the same route is utilized as the online query with respect to both 1-1 and 1-2 respectively to evaluate place recognition performance of forward and reverse driving.  
 
 Sequences 2-1 and 2-2 are collected along a much longer route from the same direction, but on different dates, 2-1 on 28th December 2021 and 2-2 on 13th January 2022, where the old one is used as a database while the newer one is used as query. The two sequences are for evaluating the performance for large-scale long-term place recognition.
 
@@ -39,7 +39,7 @@ Coming soon ...
 Our dataset follows the data format of [KITTI odometry benchmark](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). 
 
 ## Publication
-If you use our implementation in your academic work, please cite the corresponding paper ([PDF](https://arxiv.org/pdf/2203.03397.pdf)):  
+If you use our Haomo dataset in your academic work, please cite the corresponding paper ([PDF](https://arxiv.org/pdf/2203.03397.pdf)):  
     
 	@article{ma2022arxiv, 
 		author = {Junyi Ma and Jun Zhang and Jintao Xu and Rui Ai and Weihao Gu and Cyrill Stachniss and Xieyuanli Chen},
