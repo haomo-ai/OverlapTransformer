@@ -30,6 +30,9 @@ Role | Database | Database | Query | Database | Query |
 
 [[scans](https://www.ipb.uni-bonn.de/html/projects/Haomo/1-3/scans.zip)]       [[poses](https://www.ipb.uni-bonn.de/html/projects/Haomo/1-3/1-3.txt)]
 
+#### Other sequences
+
+Coming soon ...
 
 ## Format
 
