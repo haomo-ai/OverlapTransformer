@@ -16,14 +16,14 @@ Length | 2.3 km | 2.3 km | 2.3 km | coming | coming |
 Direction | Same | Reverse | - | Same | - |
 Role | Database | Database | Query | Database | Query |
 
+## News
+
+* [2022-4-26] Seq. 1-1, 1-2 and 1-3 of Haomo dataset are available.
+
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/haomo_dataset.png" width="90%"/>  
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/dataset_short_term.gif" width="40%"/>
-
-## News
-
-* [2022-4-26] Seq. 1-1, 1-2 and 1-3 of Haomo dataset are available.
 
 
 
