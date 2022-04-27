@@ -17,7 +17,9 @@ Direction | Same | Reverse | - | Same | - |
 Role | Database | Database | Query | Database | Query |
 
 
-<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/haomo_dataset.png" width="400"/><img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/dataset_short_term.gif" width="400"/>
+<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/haomo_dataset.png" width="90%"/>  
+
+<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/Haomo_Dataset/dataset_short_term.gif" width="90%"/>
 
 
 ## Download
