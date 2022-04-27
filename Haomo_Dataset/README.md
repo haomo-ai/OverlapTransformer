@@ -11,8 +11,8 @@ TABLE I: Statistics of Haomo dataset
 Sequence | 1-1 | 1-2 | 1-3 | 2-1 | 2-2 |
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 Date | 2021.12.08 | 2021.12.08 | 2021.12.08 | 2021.12.28 | 2022.01.13 |
-N_scans | 12500 | 22345 | 13500 | 100887 | 88154 |
-Length | 2.3 km | 2.3 km | 2.3 km | 11.5 km | 11.1 km |
+N_scans | 12500 | 22345 | 13500 | coming | coming |
+Length | 2.3 km | 2.3 km | 2.3 km | coming | coming |
 Direction | Same | Reverse | - | Same | - |
 Role | Database | Database | Query | Database | Query |
 
