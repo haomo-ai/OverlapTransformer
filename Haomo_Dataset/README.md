@@ -35,14 +35,14 @@ You can download the scans and poses of the LiDAR sensor from the following link
 
 #### Sequence 1-1 and 1-2
 
-* [[scans](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-1and1-2/scans.zip)]  
-* [[poses](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-1and1-2/1-1and1-2.txt)]  
+* [[scans](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-1and1-2/scans.zip)](11.3G)  
+* [[poses](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-1and1-2/1-1and1-2.txt)](5.3M)  
 
 #### Sequence 1-3
 
-* [[scans](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/scans.zip)]  
-* [[poses](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/1-3.txt)]  
-* [[transformation between the first poses](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/transformation_bet_traj.txt)]
+* [[scans](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/scans.zip)](12G)  
+* [[poses](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/1-3.txt)](5.7M)  
+* [[transformation between the first poses](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/transformation_bet_traj.txt)](405B)
 
 #### Other sequences
 
