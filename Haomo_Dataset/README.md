@@ -50,9 +50,9 @@ Coming soon ...
 
 ## Format
 
-* [scans] contains all .bin files of recorded point clouds from the 32-beam LiDAR.
-* [poses] contains the local poses of each trajectory.
-* [transformation between the first poses] contains the transformation matrix between the first poses of two trajectories. (e.g., transformation matrix of Seq 1-3 is T<sub>1-3</sub><sup>-1</sup> · T<sub>1-1</sub>)
+* **[scans]** contains all .bin files of recorded point clouds from the 32-beam LiDAR.
+* **[poses]** contains the local poses of each trajectory.
+* **[transformation between the first poses]** contains the transformation matrix between the first poses of two trajectories. (e.g., transformation matrix of Seq 1-3 is T<sub>1-3-0</sub><sup>-1</sup>·T<sub>1-1-0</sub>)
 
 Our dataset follows the data format of [KITTI odometry benchmark](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). 
 
