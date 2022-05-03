@@ -40,7 +40,7 @@ You can download the scans and poses of the LiDAR sensor from the following link
 
 #### Sequence 1-3
 
-* [[scans](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/scans.zip)] (12 G)  
+* [[scans](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/scans.zip)] (12.0 G)  
 * [[poses](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/1-3.txt)] (5.7 M)  
 * [[transformation between the first poses](https://perception-data.oss-cn-beijing.aliyuncs.com/loc/place_recognition/OT/1-3/transformation_bet_traj.txt)] (405 B)
 
