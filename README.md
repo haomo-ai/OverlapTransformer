@@ -25,21 +25,9 @@ More details of [Haomo Dataset](https://github.com/haomo-ai/OverlapTransformer/t
 
 ### Table of Contents
 1. [Introduction and Haomo Dataset](#OverlapTransformer)
-2. [Publication](#Publication)
 3. [Dependencies](#Dependencies)
 4. [How to use](#How-to-use)
 5. [License](#License)
-
-## Publication
-If you use our implementation in your academic work, please cite the corresponding paper ([PDF](https://arxiv.org/pdf/2203.03397.pdf)):  
-    
-	@article{ma2022arxiv, 
-		author = {Junyi Ma and Jun Zhang and Jintao Xu and Rui Ai and Weihao Gu and Cyrill Stachniss and Xieyuanli Chen},
-		title  = {{OverlapTransformer: An Efficient and Rotation-Invariant Transformer Network for LiDAR-Based Place Recognition}},
-		journal = {arXiv preprint},
-		eprint = {2203.03397},
-		year = {2022}
-	}
 
 ## Dependencies
 
