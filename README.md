@@ -1,6 +1,6 @@
 # OverlapTransformer
 
-The code for our paper for RAL/IROS 2022:  
+The code for our paper for **RAL/IROS 2022**:  
 
 **OverlapTransformer: An Efficient and Rotation-Invariant Transformer Network for LiDAR-Based Place Recognition.** [PDF](https://ieeexplore.ieee.org/document/9785497) 
 
