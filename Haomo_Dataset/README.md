@@ -56,3 +56,15 @@ Coming soon ...
 
 Our dataset follows the data format of [KITTI odometry benchmark](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). 
 
+## Publication
+
+If you use the Haomo dataset in your academic work, please cite our paper ([PDF](https://ieeexplore.ieee.org/document/9785497)):
+
+```
+@ARTICLE{ma2022ral,
+  author={Ma, Junyi and Zhang, Jun and Xu, Jintao and Ai, Rui and Gu, Weihao and Chen, Xieyuanli},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={OverlapTransformer: An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition}, 
+  year={2022},
+  doi={10.1109/LRA.2022.3178797}}
+```
