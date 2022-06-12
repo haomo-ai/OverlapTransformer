@@ -66,5 +66,8 @@ If you use the Haomo dataset in your academic work, please cite our paper ([PDF]
   journal={IEEE Robotics and Automation Letters}, 
   title={OverlapTransformer: An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition}, 
   year={2022},
+  volume={7},
+  number={3},
+  pages={6958-6965},
   doi={10.1109/LRA.2022.3178797}}
 ```
