@@ -58,7 +58,7 @@ Our dataset follows the data format of [KITTI odometry benchmark](http://www.cvl
 
 ## Publication
 
-If you use the Haomo dataset in your academic work, please cite our paper ([PDF](https://ieeexplore.ieee.org/document/9785497)):
+If you use the Haomo dataset in your academic work, please cite our paper ([Paper](https://ieeexplore.ieee.org/document/9785497)):
 
 ```
 @ARTICLE{ma2022ral,
