@@ -218,10 +218,12 @@ Therefore you can start the testing scripts as follows:
 
 ```
 cd test
-python test_kitti00_PR_prepare.py
+mkdir test_results_kitti
+python test_kitti00_prepare.py
 python test_kitti00_PR.py
+python test_kitti00_topN.py
 ```
-After you run `test_kitti00_PR_prepare.py`, a file named `predicted_des_L2_dis.npz` is generated in `test_results_kitti`, which is used by `python test_kitti00_PR.py`  
+After you run `test_kitti00_prepare.py`, a file named `predicted_des_L2_dis.npz` is generated in `test_results_kitti`, which is used by `python test_kitti00_PR.py` to calculate PR curve and F1max, and used by `python test_kitti00_topN.py` to calculate topN recall.   
 
 For a quick test of the training and testing procedures, you could use our [pretrained model](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view?usp=sharing).  
 

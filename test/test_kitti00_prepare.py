@@ -2,7 +2,7 @@
 # Developed by Junyi Ma, Xieyuanli Chen, and Jun Zhang
 # This file is covered by the LICENSE file in the root of the project OverlapTransformer:
 # https://github.com/haomo-ai/OverlapTransformer/
-# Brief: generate the prediction files for the following Recall@N calculation
+# Brief: generate the prediction files for the following PR, F1max and Recall@N calculation
 
 
 import os
@@ -53,7 +53,7 @@ def test_chosen_seq(amodel, data_root_folder, test_seq):
     row_list = []
     for i in range(101, 4541-1):
         nlist = 1
-        k = 1
+        k = 50
         d = 256
         quantizer = faiss.IndexFlatL2(d)
         index = faiss.IndexIVFFlat(quantizer, d, nlist, faiss.METRIC_L2)
