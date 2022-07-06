@@ -103,9 +103,11 @@ int main()
 
     int width = 900;
     int height = 64;
+    float fov_up = 3;
+    float fov_down = -25;
     int len_arr = width*height;
     float range_image[len_arr];
-    gen_range_image(range_image, cloud0, 3, -25, height, width, 50);
+    gen_range_image(range_image, cloud0, fov_up, fov_down, height, width, 50);
 
 
 
