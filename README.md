@@ -102,8 +102,9 @@ We recommend you follow our code and data structures as follows.
 ├── test
 │   ├── test_haomo_topn_prepare.py
 │   ├── test_haomo_topn.py
-│   ├── test_kitti00_PR_prepare.py
+│   ├── test_kitti00_prepare.py
 │   ├── test_kitti00_PR.py
+│   ├── test_kitti00_topN.py
 │   ├── test_results_haomo
 │   │   └── predicted_des_L2_dis_bet_traj_forward.npz (to be generated)
 │   └── test_results_kitti
