@@ -102,10 +102,10 @@ int main()
     }
 
     int width = 900;
-    int height = 32;
+    int height = 64;
     int len_arr = width*height;
     float range_image[len_arr];
-    gen_range_image(range_image, cloud0, 3, -25, 64, 900, 50);
+    gen_range_image(range_image, cloud0, 3, -25, height, width, 50);
 
 
 
@@ -121,7 +121,7 @@ int main()
     module.eval();
 
 
-    torch::Tensor tester  = torch::from_blob(range_image, {1, 1, 32, 900}, torch::kFloat).to(device);
+    torch::Tensor tester  = torch::from_blob(range_image, {1, 1, height, width}, torch::kFloat).to(device);
     double desc_gen_time = 0;
     for (int i=0; i<1000; i++)
     {
