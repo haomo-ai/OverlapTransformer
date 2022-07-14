@@ -2,7 +2,7 @@ data_root:
   # KITTI sequences root
   data_root_folder: "/home/mjy/datasets/overlapnet_datasets/OverlapNet/kitti/dataset_full/"
   # KITTI sequence 02 velodyne
-  valid_scan_folder: "/home/mjy/datasets/kitti/00/velodyne"
+  valid_scan_folder: "/home/mjy/datasets/kitti/02/velodyne"
   # KITTI sequence 02 computed overlaps
   gt_valid_folder: "/home/mjy/dev/OverlapNet++/kittiHandler/computed_overlap/"
 
