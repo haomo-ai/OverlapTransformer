@@ -28,7 +28,8 @@ More details of [Haomo Dataset](https://github.com/haomo-ai/OverlapTransformer/t
 2. [Publication](#Publication)
 3. [Dependencies](#Dependencies)
 4. [How to use](#How-to-use)
-5. [License](#License)
+5. [Datasets used by OT](#Datasets used by OT)
+6. [License](#License)
 
 ## Publication
 
@@ -278,6 +279,21 @@ make -j6
 ./fast_ot 
 ```
 You can find our C++ OT can generate a decriptor with **less than 2 ms per frame**.
+
+
+## Datasets used by OT
+
+In this section, we list the files of different datasets used by OT for faster inquiry.  
+
+### KITTI dataset
+
+* Pretrained model: [pretrained_overlap_transformer.pth.tar](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view)
+* Overlaps folder of each sequence for training: [train_set_from_overlapnet.zip](https://drive.google.com/file/d/1i333NUC1DnJglXasqkGYCmo9p45Fx28-/view?usp=sharing).
+* Validation folder from sequence 02: [computed_overlap_02.zip](https://drive.google.com/file/d/13_1j20Uq3ppjVEkYaYcKjiJ2Zm7tudyH/view?usp=sharing).   
+* The groud truth for sequence 00 for testing: [loop_gt_seq00_0.3overlap_inactive.npz](https://drive.google.com/file/d/1upAwJBF-_UIB7R8evW0PuJBM3RnrTbzl/view?usp=sharing)
+* Calibration file from the orginal benchmark (00): [calib.txt](https://drive.google.com/file/d/1LAcFrRSZQPxdD4EKSwIC0d3-uGvLB3yk/view?usp=sharing)
+* Pose file the orginal benchmark (00): [00.txt](https://drive.google.com/file/d/1n02m1OqxK122ce8Cjz_N68PkazGqzj9l/view?usp=sharing)
+* Covariance file from SUMA++ (00): [covariance_2nd.txt](https://drive.google.com/file/d/1ZaY_OJegIsI0rD5WGOzJ296dh7c7wyiz/view?usp=sharing)
 
 
 ## License
