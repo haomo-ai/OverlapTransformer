@@ -44,7 +44,7 @@ def cal_pr_curve(prediction_file_name, ground_truth_file_name):
             gt_idxes = ground_truth[int(idx)]
             reject_flag = False
 
-            if des_dists[des_dists[:,0]==int(idx),2]>thres:
+            if des_dists[des_dists[:,0]==int(idx),2][0]>thres:
                 reject_flag = True
             if reject_flag:
                 if not gt_idxes.any():
@@ -52,7 +52,7 @@ def cal_pr_curve(prediction_file_name, ground_truth_file_name):
                 else:
                     fns += 1
             else:
-                if des_dists[des_dists[:,0]==int(idx),1] in gt_idxes:
+                if des_dists[des_dists[:,0]==int(idx),1][0] in gt_idxes:
                     tps += 1
                 else:
                     fps += 1
