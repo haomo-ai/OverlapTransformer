@@ -33,7 +33,7 @@ More details of [Haomo Dataset](https://github.com/haomo-ai/OverlapTransformer/t
 
 ## Publication
 
-If you use the code or the Haomo dataset in your academic work, please cite our paper ([PDF](https://ieeexplore.ieee.org/document/9785497)):
+If you use the code or the Haomo dataset in your academic work, please cite our paper ([PDF](https://arxiv.org/pdf/2203.03397.pdf)):
 
 ```
 @ARTICLE{ma2022ral,
