@@ -12,7 +12,7 @@ Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://gi
 ## News
 We further develop a sequence-enhanced version of OT named as SeqOT, which can be found [here](https://github.com/BIT-MJY/SeqOT).
 
-### [Haomo Dataset](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset)
+## Haomo Dataset
 
 <img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/query_database_haomo.gif" >  
 
