@@ -9,7 +9,7 @@ It is a newer version of our previous [OverlapNet](https://github.com/PRBonn/Ove
 
 Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli) and [Jun Zhang](https://github.com/zhangjun-xyz).
 
-## [News]
+## News
 We further develop a sequence-enhanced version of OT named as SeqOT, which can be found [here](https://github.com/BIT-MJY/SeqOT).
 
 ### [Haomo Dataset](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset)
