@@ -4,7 +4,7 @@ The code for our paper for **RAL/IROS 2022**:
 
 **OverlapTransformer: An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition.** [[IEEE Xplore RA-L 2022](https://ieeexplore.ieee.org/document/9785497)] [[ArXiv](https://arxiv.org/pdf/2203.03397.pdf)] [[Video](https://www.youtube.com/watch?v=354tFx7s2mk)]
 
-OverlapTransformer is a novel lightweight neural network exploiting the LiDAR range images to achieve fast execution with **less than 4 ms per frame using python, less than 2 ms per frame using C++** in LiDAR similarity estimation. 
+OverlapTransformer (OT) is a novel lightweight neural network exploiting the LiDAR range images to achieve fast execution with **less than 4 ms per frame using python, less than 2 ms per frame using C++** in LiDAR similarity estimation. 
 It is a newer version of our previous [OverlapNet](https://github.com/PRBonn/OverlapNet), which is faster and more accurate in LiDAR-based loop closure detection and place recognition.
 
 Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli) and [Jun Zhang](https://github.com/zhangjun-xyz).
