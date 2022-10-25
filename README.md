@@ -290,6 +290,8 @@ In this section, we list the files of different datasets used by OT for faster i
 
 ### KITTI dataset
 
+KITTI is used to validate the place recognition performance in our paper. Currently we have released all the necessary files for evaluation on KITTI. 
+
 * Pretrained model: [pretrained_overlap_transformer.pth.tar](https://drive.google.com/file/d/1FNrx9pcDa9NF7z8CFtuTWyauNkeSEFW4/view)
 * Overlaps folder of each sequence for training: [train_set_from_overlapnet.zip](https://drive.google.com/file/d/1i333NUC1DnJglXasqkGYCmo9p45Fx28-/view?usp=sharing).
 * Validation folder from sequence 02: [computed_overlap_02.zip](https://drive.google.com/file/d/13_1j20Uq3ppjVEkYaYcKjiJ2Zm7tudyH/view?usp=sharing).   
@@ -300,8 +302,13 @@ In this section, we list the files of different datasets used by OT for faster i
 
 ### Ford Campus dataset
 
-* Coming soon ...
+Ford is used to validate the generalization ability with zero-shot transferring in our paper. Currently we have released all the necessary preprocessed files of Ford except the code for the evaluation which is similar to KITTI. You just need to follow our exisiting scripts.
 
+* The overlap-based groud truth for sequence 00 for testing: [loop_gt_seq00_0.3overlap_inactive.npz](https://drive.google.com/file/d/1oYxux_8nrm51foFU7gjv_UWHCQeklKA8/view?usp=sharing)
+* The distance-based groud truth for sequence 00 for testing: [loop_gt_seq00_10distance_inactive.npz](https://drive.google.com/file/d/1wSmsK_4PNOR_Omp5Yo9dAb_MfLAxKynX/view?usp=sharing)
+* Calibration file from the orginal benchmark (00): [calib.txt](https://drive.google.com/file/d/1yEtzAYcInO-H3QUsQWuQjmmMLKpmujyZ/view?usp=sharing)
+* Pose file the orginal benchmark (00): [poses.txt](https://drive.google.com/file/d/1YenoUNTt5e_vRCQN1XJ952A8CfA_eNQs/view?usp=sharing)
+* Covariance file from SUMA++ (00): [covariance_2nd.txt](https://drive.google.com/file/d/1OCQhv6rzbdorrl04YSRrGZ_cVLPoGJsf/view?usp=sharing)
 
 ## License
 Copyright 2022, Junyi Ma, Xieyuanli Chen, Jun Zhang, HAOMO.AI Technology Co., Ltd., China.
