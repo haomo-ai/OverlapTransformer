@@ -302,13 +302,17 @@ KITTI is used to validate the place recognition performance in our paper. Curren
 
 ### Ford Campus dataset
 
-Ford is used to validate the generalization ability with zero-shot transferring in our paper. Currently we have released all the necessary preprocessed files of Ford except the code for the evaluation which is similar to KITTI. You just need to follow our exisiting scripts.
+Ford is used to validate the generalization ability with zero-shot transferring in our paper. Currently we have released all the necessary preprocessed files of Ford except the code for the evaluation which is similar to KITTI. You just need to follow our existing scripts.
 
 * The overlap-based groud truth for sequence 00 for testing: [loop_gt_seq00_0.3overlap_inactive.npz](https://drive.google.com/file/d/1oYxux_8nrm51foFU7gjv_UWHCQeklKA8/view?usp=sharing)
 * The distance-based groud truth for sequence 00 for testing: [loop_gt_seq00_10distance_inactive.npz](https://drive.google.com/file/d/1wSmsK_4PNOR_Omp5Yo9dAb_MfLAxKynX/view?usp=sharing)
 * Calibration file from the orginal benchmark (00): [calib.txt](https://drive.google.com/file/d/1yEtzAYcInO-H3QUsQWuQjmmMLKpmujyZ/view?usp=sharing)
 * Pose file the orginal benchmark (00): [poses.txt](https://drive.google.com/file/d/1YenoUNTt5e_vRCQN1XJ952A8CfA_eNQs/view?usp=sharing)
 * Covariance file from SUMA++ (00): [covariance_2nd.txt](https://drive.google.com/file/d/1OCQhv6rzbdorrl04YSRrGZ_cVLPoGJsf/view?usp=sharing)
+
+### Haomo dataset
+
+You can find the detailed description of Haomo dataset [here](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset).
 
 ## License
 Copyright 2022, Junyi Ma, Xieyuanli Chen, Jun Zhang, HAOMO.AI Technology Co., Ltd., China.
