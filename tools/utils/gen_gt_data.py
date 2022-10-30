@@ -2,7 +2,7 @@
 # Developed by Junyi Ma, Xieyuanli Chen, and Jun Zhang
 # This file is covered by the LICENSE file in the root of the project OverlapTransformer:
 # https://github.com/haomo-ai/OverlapTransformer/
-# Brief: read sampled range images of KITTI sequences as single input or batch input
+# Brief: generate the overlap-based ground truth file, such as the provided loop_gt_seq00_0.3overlap_inactive.npz.
 
 
 import os
