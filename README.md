@@ -11,7 +11,7 @@ Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://gi
 
 ## News!
 
-**[2022-12]** SeqOT is accepted by IEEE Transactions on Industrial Electronics (TIE)!
+**[2022-12]** SeqOT is accepted by IEEE Transactions on Industrial Electronics (TIE)!  
 **[2022-09]** We further develop **a sequence-enhanced version of OT named as SeqOT**, which can be found [here](https://github.com/BIT-MJY/SeqOT).
 
 ## Haomo Dataset
