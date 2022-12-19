@@ -10,7 +10,9 @@ It is a newer version of our previous [OverlapNet](https://github.com/PRBonn/Ove
 Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli) and [Jun Zhang](https://github.com/zhangjun-xyz).
 
 ## News!
-We further develop **a sequence-enhanced version of OT named as SeqOT**, which can be found [here](https://github.com/BIT-MJY/SeqOT).
+
+**[2022-12]** SeqOT is accepted by IEEE Transactions on Industrial Electronics (TIE)!
+**[2022-09]** We further develop **a sequence-enhanced version of OT named as SeqOT**, which can be found [here](https://github.com/BIT-MJY/SeqOT).
 
 ## Haomo Dataset
 
