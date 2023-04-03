@@ -34,7 +34,8 @@ More details of Haomo Dataset can be found in dataset description ([link](https:
 3. [Dependencies](#Dependencies)
 4. [How to use](#How-to-use)
 5. [Datasets used by OT](#Datasets-used-by-OT)
-6. [License](#License)
+6. [Related work](#Related-work)
+7. [License](#License)
 
 ## Publication
 
@@ -315,6 +316,13 @@ Ford is used to validate the generalization ability with zero-shot transferring 
 ### Haomo dataset
 
 You can find the detailed description of Haomo dataset [here](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset).
+
+## Related work
+
+Please find our more recent work on LiDAR place recognition below.
+
+* [SeqOT](https://github.com/BIT-MJY/SeqOT): spatial-temporal network using sequential LiDAR data
+* [CVTNet](https://github.com/BIT-MJY/CVTNet): cross-view Transformer network using RIVs and BEVs
 
 ## License
 Copyright 2022, Junyi Ma, Xieyuanli Chen, Jun Zhang, HAOMO.AI Technology Co., Ltd., China.
