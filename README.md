@@ -319,7 +319,7 @@ You can find the detailed description of Haomo dataset [here](https://github.com
 
 ## Related work
 
-Please find our more recent work on LiDAR place recognition below.
+You can find our more recent LiDAR place recognition approaches below, which have better performance on larger time gaps.
 
 * [SeqOT](https://github.com/BIT-MJY/SeqOT): spatial-temporal network using sequential LiDAR data
 * [CVTNet](https://github.com/BIT-MJY/CVTNet): cross-view Transformer network using RIVs and BEVs
