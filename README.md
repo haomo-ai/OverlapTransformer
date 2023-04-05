@@ -28,7 +28,7 @@ Fig. 2 [Haomo Dataset](https://github.com/haomo-ai/OverlapTransformer/tree/maste
 
 More details of Haomo Dataset can be found in dataset description ([link](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset)).
 
-### Table of Contents
+## Table of Contents
 1. [Introduction and Haomo Dataset](#OverlapTransformer)
 2. [Publication](#Publication)
 3. [Dependencies](#Dependencies)
