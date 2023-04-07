@@ -32,9 +32,9 @@ More details of Haomo Dataset can be found in dataset description ([link](https:
 1. [Introduction and Haomo Dataset](#OverlapTransformer)
 2. [Publication](#Publication)
 3. [Dependencies](#Dependencies)
-4. [How to use](#How-to-use)
-5. [Datasets used by OT](#Datasets-used-by-OT)
-6. [Related work](#Related-work)
+4. [How to Use](#How-to-Use)
+5. [Datasets Used by OT](#Datasets-Used-by-OT)
+6. [Related Work](#Related-Work)
 7. [License](#License)
 
 ## Publication
@@ -89,13 +89,13 @@ To use a GPU, first you need to install the nvidia driver and CUDA.
   sudo -H pip3 install -r requirements.txt
   ```
   
-## How to use
+## How to Use
 We provide a training and test tutorials for KITTI sequences in this repository. 
 The tutorials for Haomo dataset will be released together with the complete Haomo dataset.  
 
 We recommend you follow our code and data structures as follows.
 
-### Code structure
+### Code Structure
 
 ```bash
 ├── config
@@ -145,7 +145,7 @@ To use our code, you need to download the following necessary files and put them
 
 
 
-#### Dataset structure
+#### Dataset Structure
 In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), the parameters of `data_root` are described as follows:
 ```
   data_root_folder (KITTI sequences root) follows:
@@ -268,7 +268,7 @@ cd visualize
 python viz_haomo.py
 ```
 
-### C++ implementation
+### C++ Implementation
 
 We provide a C++ implementation of OverlapTransformer with libtorch for faster retrival.  
 * Please download [.pt](https://drive.google.com/file/d/1oC9_Iyts4r1itu5N3_GAfbdPoZ54C1q4/view?usp=sharing) and put it in the OT_libtorch folder.
@@ -287,11 +287,11 @@ make -j6
 You can find our C++ OT can generate a decriptor with **less than 2 ms per frame**.
 
 
-## Datasets used by OT
+## Datasets Used by OT
 
 In this section, we list the files of different datasets used by OT for faster inquiry.  
 
-### KITTI dataset
+### KITTI Dataset
 
 KITTI is used to validate the place recognition performance in our paper. Currently we have released all the necessary files for evaluation on KITTI. 
 
@@ -303,7 +303,7 @@ KITTI is used to validate the place recognition performance in our paper. Curren
 * Pose file the orginal benchmark (00): [00.txt](https://drive.google.com/file/d/1n02m1OqxK122ce8Cjz_N68PkazGqzj9l/view?usp=sharing)
 * Covariance file from SUMA++ (00): [covariance_2nd.txt](https://drive.google.com/file/d/1ZaY_OJegIsI0rD5WGOzJ296dh7c7wyiz/view?usp=sharing)
 
-### Ford Campus dataset
+### Ford Campus Dataset
 
 Ford is used to validate the generalization ability with zero-shot transferring in our paper. Currently we have released all the necessary preprocessed files of Ford except the code for the evaluation which is similar to KITTI. You just need to follow our existing scripts.
 
@@ -313,11 +313,11 @@ Ford is used to validate the generalization ability with zero-shot transferring 
 * Pose file the orginal benchmark (00): [poses.txt](https://drive.google.com/file/d/1YenoUNTt5e_vRCQN1XJ952A8CfA_eNQs/view?usp=sharing)
 * Covariance file from SUMA++ (00): [covariance_2nd.txt](https://drive.google.com/file/d/1OCQhv6rzbdorrl04YSRrGZ_cVLPoGJsf/view?usp=sharing)
 
-### Haomo dataset
+### Haomo Dataset
 
 You can find the detailed description of Haomo dataset [here](https://github.com/haomo-ai/OverlapTransformer/tree/master/Haomo_Dataset).
 
-## Related work
+## Related Work
 
 You can find our more recent LiDAR place recognition approaches below, which have better performance on larger time gaps.
 
