@@ -145,7 +145,7 @@ To use our code, you need to download the following necessary files and put them
 
 
 
-#### Dataset Structure
+### Dataset Structure
 In the file [config.yaml](https://github.com/haomo-ai/OverlapTransformer/blob/master/config/config.yml), the parameters of `data_root` are described as follows:
 ```
   data_root_folder (KITTI sequences root) follows:
