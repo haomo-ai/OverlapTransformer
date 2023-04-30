@@ -33,7 +33,7 @@ def cal_pr_curve(prediction_file_name, ground_truth_file_name):
     ground_truth = np.load(ground_truth_file_name, allow_pickle='True')['arr_0']
 
     """Changing the threshold will lead to different test results"""
-    for thres in np.arange(0.0, 0.6, 0.0001):
+    for thres in np.arange(0.0, 1.0, 0.0001):
         print("thresh: ", thres)
         tps = 0
         fps = 0
