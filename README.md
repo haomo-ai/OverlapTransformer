@@ -322,8 +322,28 @@ You can find the detailed description of Haomo dataset [here](https://github.com
 
 You can find our more recent LiDAR place recognition approaches below, which have better performance on larger time gaps.
 
-* [SeqOT](https://github.com/BIT-MJY/SeqOT): spatial-temporal network using sequential LiDAR data
-* [CVTNet](https://github.com/BIT-MJY/CVTNet): cross-view Transformer network using RIVs and BEVs
+* [SeqOT](https://github.com/BIT-MJY/SeqOT): spatial-temporal network using sequential LiDAR data (IEEE TIE 2022)
+
+```
+@ARTICLE{ma2022tie,
+  author={Ma, Junyi and Chen, Xieyuanli and Xu, Jingyi and Xiong, Guangming},
+  journal={IEEE Transactions on Industrial Electronics}, 
+  title={SeqOT: A Spatial-Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data}, 
+  year={2022},
+  doi={10.1109/TIE.2022.3229385}}
+```
+* [CVTNet](https://github.com/BIT-MJY/CVTNet): cross-view Transformer network using RIVs and BEVs (IEEE TII 2023)
+
+```
+@misc{ma2023cvtnet,
+      title={CVTNet: A Cross-View Transformer Network for Place Recognition Using LiDAR Data}, 
+      author={Junyi Ma and Guangming Xiong and Jingyi Xu and Xieyuanli Chen},
+      year={2023},
+      eprint={2302.01665},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## License
 Copyright 2022, Junyi Ma, Xieyuanli Chen, Jun Zhang, HAOMO.AI Technology Co., Ltd., China.
