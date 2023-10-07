@@ -335,14 +335,12 @@ You can find our more recent LiDAR place recognition approaches below, which hav
 * [CVTNet](https://github.com/BIT-MJY/CVTNet): cross-view Transformer network using RIVs and BEVs (IEEE TII 2023)
 
 ```
-@misc{ma2023cvtnet,
-      title={CVTNet: A Cross-View Transformer Network for Place Recognition Using LiDAR Data}, 
-      author={Junyi Ma and Guangming Xiong and Jingyi Xu and Xieyuanli Chen},
-      year={2023},
-      eprint={2302.01665},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@ARTICLE{10273716,
+  author={Ma, Junyi and Xiong, Guangming and Xu, Jingyi and Chen, Xieyuanli},
+  journal={IEEE Transactions on Industrial Informatics}, 
+  title={CVTNet: A Cross-View Transformer Network for LiDAR-Based Place Recognition in Autonomous Driving Environments}, 
+  year={2023},
+  doi={10.1109/TII.2023.3313635}}
 ```
 
 ## License
