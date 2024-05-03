@@ -153,7 +153,6 @@ class trainHandler():
 
                 input_batch = torch.cat((current_batch, sample_batch), dim=0)
 
-                input_batch.requires_grad_(True)
                 self.amodel.train()
                 self.optimizer.zero_grad()
 
