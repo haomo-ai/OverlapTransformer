@@ -11,8 +11,6 @@ Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://gi
 
 OverlapTransformer is not a sophisticated model but holds natural mathematical properties in a lightweight style for surround-view observations. **Welcome to post results in issues if you have tried other input types (e.g., RGBD camera, Livox, 16/32-beam LiDAR).**
 
-We have not used sensors with limited FOV such as RGBD camera providing its inputs. You can try it and welcome to post results here :)
-
 
 ## News!
 
