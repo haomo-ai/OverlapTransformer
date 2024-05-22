@@ -9,6 +9,11 @@ It is a newer version of our previous [OverlapNet](https://github.com/PRBonn/Ove
 
 Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli) and [Jun Zhang](https://github.com/zhangjun-xyz).
 
+OverlapTransformer is not a sophisticated model but holds natural mathematical properties in a lightweight style for surround-view observations. **Welcome to post results in issues if you have tried other input types (e.g., RGBD camera, Livox, 16/32-beam LiDAR).**
+
+We have not used sensors with limited FOV such as RGBD camera providing its inputs. You can try it and welcome to post results here :)
+
+
 ## News!
 
 **[2023-09]** **The multi-view extension of OT, [CVTNet](https://github.com/BIT-MJY/CVTNet)**, is accepted by IEEE Transactions on Industrial Informatics (TII)! A better long-term recognition performance is available :star:	     
