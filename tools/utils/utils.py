@@ -58,7 +58,7 @@ def load_calib(calib_path):
   return np.array(T_cam_velo)
 
 
-def range_projection(current_vertex, fov_up=3.0, fov_down=-25.0, proj_H=64, proj_W=900, max_range=50):
+def range_projection(current_vertex, fov_up=3.0, fov_down=-25.0, proj_H=64, proj_W=900, max_range=80):
   """ Project a pointcloud into a spherical projection, range image.
       Args:
         current_vertex: raw point clouds
