@@ -9,7 +9,7 @@ It is a newer version of our previous [OverlapNet](https://github.com/PRBonn/Ove
 
 Developed by [Junyi Ma](https://github.com/BIT-MJY), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli) and [Jun Zhang](https://github.com/zhangjun-xyz).
 
-OverlapTransformer is not a sophisticated model but holds natural mathematical properties in a lightweight style for surround-view observations. **Welcome to post results in issues if you have tried other input types (e.g., RGBD camera, Livox, 16/32-beam LiDAR).**
+OverlapTransformer is not a sophisticated model but holds natural mathematical properties in a lightweight style for surround-view observations. It can be seamlessly integrated into any range-image-based approach as a backbone, e.g., [EINet](https://arxiv.org/abs/2402.17264) (IROS 2024). **Welcome to post results in issues if you have tried other input types (e.g., RGBD camera, Livox, 16/32-beam LiDAR).**
 
 
 ## News!
