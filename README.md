@@ -14,7 +14,7 @@ OverlapTransformer is not a sophisticated model but holds natural mathematical p
 
 ## News!
 
-**[2024-06]** [EINet](https://arxiv.org/abs/2402.17264) successfully integrates OT into its framework as a powerful submodule, which is accepted by IROS 2024!
+**[2024-06]** [EINet](https://arxiv.org/abs/2402.17264) successfully integrates OT into its framework as a powerful submodule, which is accepted by IROS 2024!  
 **[2023-09]** **The multi-view extension of OT, [CVTNet](https://github.com/BIT-MJY/CVTNet)**, is accepted by IEEE Transactions on Industrial Informatics (TII)! A better long-term recognition performance is available :star:	     
 **[2022-12]** SeqOT is accepted by IEEE Transactions on Industrial Electronics (TIE)!  
 **[2022-09]** We further develop **a sequence-enhanced version of OT named as SeqOT**, which can be found [here](https://github.com/BIT-MJY/SeqOT).
